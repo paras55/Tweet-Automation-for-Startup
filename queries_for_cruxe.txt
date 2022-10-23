@@ -1,0 +1,4 @@
+q='Content Creation'
+q1='infotainment reels'
+q2='content ideas -filter:retweets'      # this means we dont want retweets
+q3='Content Creation' 
