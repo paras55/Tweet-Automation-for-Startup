@@ -1,6 +1,8 @@
+#this code only brings 100 tweets at one time. If yoy want more than 100 tweets, lookout for another file in same repo named "advanced_tweets_pull.py"
+
 import tweepy
 import datetime
-#from datetime import timezone
+
 
 API_KEY=''
 API_SECRET=''
@@ -8,12 +10,6 @@ API_SECRET=''
 ACCESS_TOKEN=''
 ACCESS_TOKEN_SECRET=''
 
-# Authenticate to Twitter
-#auth = tweepy.OAuthHandler("API_KEY", "API_SECRET")
-#auth.set_access_token("ACCESS_TOKEN", "ACCESS_TOKEN_SECRET")
-
-# Create API object
-#api = tweepy.API(auth)
 
 auth = tweepy.auth.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
